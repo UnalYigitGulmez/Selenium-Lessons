@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="baseURLNetRD" value="https://netrd.orioninc.com.tr"/>
+    <parameter name="baseURLAmazon" value="https://www.amazon.com"/>
+    <parameter name="messaging" value="true"> </parameter>
+    <parameter name="numbers" value="sayilar"> </parameter>
+    <test name="ParameterTasks">
+        <classes>
+            <class name="Lesson_10.ParameterExamples"/>
+        </classes>
+    </test>
+</suite>
